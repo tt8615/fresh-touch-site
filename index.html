@@ -2,10 +2,10 @@
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
-<title>Привет</title>
+<title>Юля я уже на кухне</title>
 </head>
 <body>
-  <p>Привет</p>
+  <h1 class="greeting">Юля я уже на кухне</h1>
   <div class="slider">
     <div class="slide active">
       <h2>Быстрая химчистка</h2>
@@ -26,13 +26,27 @@
   <style>
     body {
       font-family: Arial, sans-serif;
+      background: #87CEFA;
+    }
+    .greeting {
+      text-align: center;
+      font-size: 2.5em;
+      font-weight: bold;
+      color: #d40000;
+      background: #ffffff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      width: fit-content;
+      margin: 40px auto;
     }
     .slider {
       position: relative;
-      max-width: 800px;
+      max-width: 1600px;
       margin: 20px auto;
       overflow: hidden;
+      min-height: 500px;
       border-radius: 10px;
+      background: #FFF9C4;
     }
     .slide {
       position: absolute;
